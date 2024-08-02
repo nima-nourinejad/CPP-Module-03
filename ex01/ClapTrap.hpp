@@ -19,6 +19,7 @@ protected:
   void setHitPoints(int hitPoints);
   void setEnergyPoints(int energyPoints);
   void setAttackDamage(int attackDamage);
+  std::string getName() const;
 
 private:
   std::string _name;
