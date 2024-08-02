@@ -19,6 +19,7 @@ int main(void) {
   scavTrap.attack("target4");
   scavTrap.takeDamage(30);
   scavTrap.beRepaired(25);
+  scavTrap.guardGate();
   std::cout << std::endl;
   return 0;
 }
