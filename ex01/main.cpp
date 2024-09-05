@@ -15,7 +15,6 @@ int main(void) {
   scavTrap.attack("target3");
   scavTrap.takeDamage(10);
   scavTrap.beRepaired(20);
-  scavTrap.guardGate();
   scavTrap.attack("target4");
   scavTrap.takeDamage(30);
   scavTrap.beRepaired(25);
