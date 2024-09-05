@@ -59,14 +59,3 @@ void ClapTrap::beRepaired(unsigned int amount) {
     std::cout << "ClapTrap " << _name << " can not repair itself";
   std::cout << std::endl;
 }
-
-void ClapTrap::setHitPoints(int hitPoints) { _hitPoints = hitPoints; }
-void ClapTrap::setEnergyPoints(int energyPoints) {
-  _energyPoints = energyPoints;
-}
-void ClapTrap::setAttackDamage(int attackDamage) {
-  _attackDamage = attackDamage;
-}
-std::string ClapTrap::getName() const{
-	return _name;
-}
